@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    {{ __('Dah Login!') }}
+                    {{ __('LOGIN GERENGSENG!!!!') }}
                 </div>
             </div>
         </div>

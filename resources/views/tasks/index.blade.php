@@ -5,7 +5,7 @@
         <div class="col-sm-offset-2">
             <div class="panel panel-default border rounded bg-white col-sm-6 mb-4">
                 <div class="panel-heading border-bottom text-center fw-bold p-3">
-                    Form Create Task
+                    Kertas Jeung nyieun task
                 </div>
 
                 <div class="panel-body p-3">
@@ -16,7 +16,7 @@
 
                         <!-- Task Name -->
                         <div class="form-group mb-3">
-                            <label for="task-name" class="form-label">Task Name :</label>
+                            <label for="task-name" class="form-label">NGARAN TASK :</label>
 
                             <div class="col-sm-12">
                                 <input type="text" name="nama" id="task-name" class="form-control"
@@ -28,7 +28,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3">
                                 <button type="submit" class="btn btn-primary">
-                                    Add Task
+                                    PENCET!!!
                                 </button>
                             </div>
                         </div>
@@ -46,7 +46,7 @@
             @if (count($tasks) > 0)
                 <div class="panel panel-default border rounded mb-3">
                     <div class="panel-heading border-bottom text-center fw-bold p-3 bg-light">
-                        Tasks Data
+                        Jang Nyimpen Task
                     </div>
 
                     <div class="panel-body p-3">
@@ -57,7 +57,7 @@
                                     <form class="form" method="get" action="{{ route('search') }}">
                                         <div class="form-group">
                                             <input type="text" name="search" class="form-control w-50 d-inline"
-                                                id="search" placeholder="Keyword...">
+                                                id="search" placeholder="Asupkeun...">
                                             <button type="submit" class="btn btn-primary mx-1 mb-1">Search</button>
                                         </div>
                                     </form>
@@ -96,13 +96,13 @@
             @else
                 <div class="panel panel-default border rounded mb-3">
                     <div class="panel-heading border-bottom text-center fw-bold p-3 bg-light">
-                        Tasks Data
+                        Jang nyimpen task
                     </div>
 
                     <div class="panel-body p-3">
                         <table class="table table-striped task-table">
                             <thead>
-                                <th class="align-middle">Task Name</th>
+                                <th class="align-middle">Ngaran Task</th>
                                 <th class="text-end" colspan="2">
                                     <form class="form" method="get" action="{{ route('search') }}">
                                         <div class="form-group">
@@ -116,7 +116,7 @@
                             <tbody>
                                 <tr>
                                     <td class="table-text col-8">
-                                        <div>{{ 'Data Tidak DItemukan!!' }}</div>
+                                        <div>{{ 'EWEUHAN DATANA LUR !!' }}</div>
                                     </td>
                             </tbody>
                         </table>
